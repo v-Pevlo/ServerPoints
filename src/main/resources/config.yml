@@ -1,0 +1,15 @@
+spawn-location:
+  world: world
+  x: 0.0
+  y: 10.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+
+mine-location:
+  world: world
+  x: 30.0
+  y: 10.0
+  z: 30.0
+  yaw: 0.0
+  pitch: 0.0

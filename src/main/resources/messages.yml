@@ -1,0 +1,15 @@
+#p %player% : Nickname of player
+#u %uuid% : UUID of player
+#x %x% : X of coordinates
+#y %y% : Y of coordinates
+#z %z% : Z of coordinates
+
+load-message: "&6ServerPoints &floaded &asuccessfully!"
+reload-message: "&6ServerPoints &freloaded &asuccessfully!"
+spawn-teleport: "You've been teleported to &aSpawn" #p
+mine-teleport: "You've been teleported to &cAutoMine" #p
+no-home-message: "&cYou don't have a home!" #p
+home-set: "You've set your new home at: &e%x%, %y%, %z%" #p #x #y #z
+home-teleport: "Sweet home, %player%..." #p #x #y #z
+new-home-log: "&7%uuid% &fset new home: &e%x%, %y%, %z%" #u #x #y #z
+join-message: "&5Welcome, &e%player%&5!" #p

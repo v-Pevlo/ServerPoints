@@ -1,0 +1,17 @@
+name: ServerPoints
+author: v.Pevlo
+version: 1.0
+main: v.pevlo.Main
+api-version: 1.16
+
+commands:
+  spawn:
+    usage: /spawn
+  automine:
+    usage: /automine
+  sp:
+    usage: /sp
+  sethome:
+    usage: /sethome
+  home:
+    usage: /home
