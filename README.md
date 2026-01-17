@@ -1,7 +1,7 @@
-**ServerPoints**
+# ServerPoints
 
-Version: 1.0
+## Version: 1.0
 
-Author: v.Pevlo
+## Author: v.Pevlo
 
-Provides managing server locations.
+### Provides managing server locations.
