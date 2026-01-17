@@ -7,3 +7,5 @@
 ## ————————————
 
 ### Features
+- 🌍 Specifying the coordinates of the spawn and auto mine to teleport there
+- 🏠 Ability for players to point their home and teleport there
