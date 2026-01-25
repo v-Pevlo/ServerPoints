@@ -10,7 +10,7 @@ import org.bukkit.plugin.Plugin
 import v.pevlo.Main
 import v.pevlo.util.ChatUtil.message
 
-private val plugin = Main.Companion.instance
+private val plugin = Main.instance
 private val msgs = plugin.msgs
 val config = plugin.config
 
@@ -21,6 +21,8 @@ class EventsManager(plugin: Plugin): Listener {
 
     @EventHandler
     fun join(e: PlayerJoinEvent) {
+        if (!config.getBoolean("on-join-spawn-tp")) return
+
         val xyz = locGet("spawn-location")
         val loc = Location(xyz[0] as World?,
                             xyz[1] as Double,

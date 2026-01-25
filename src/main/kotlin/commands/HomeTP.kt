@@ -18,7 +18,7 @@ object HomeTP: CommandExecutor {
             val loc = home?.loc?.toBukkit()
 
             if (loc != null) {
-                sender.teleport(home.loc.toBukkit()!!)
+                sender.teleport(loc)
                 sender.message(
                     msgs.get("home-teleport"),
                     Pair("%player%", sender.name),
